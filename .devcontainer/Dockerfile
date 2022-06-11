@@ -12,4 +12,4 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 ENV CLOUDSDK_INSTALL_DIR /usr/local/gcloud/
 RUN curl -sSL https://sdk.cloud.google.com | bash
 
- ENV PATH $PATH:/usr/local/gcloud/google-cloud-sdk/b
+ ENV PATH $PATH:/usr/local/gcloud/google-cloud-sdk/bin
